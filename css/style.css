@@ -6,3 +6,33 @@ h1{
     color: white;
     text-align: center;
 }
+body{
+    margin:0;
+    font-family:Arial;
+    background:black;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    background:black;
+    padding:10px 30px;
+}
+
+.logo img{
+    width:90px;
+    height:auto;
+}
+
+nav a{
+    color:gold;
+    text-decoration:none;
+    margin-left:20px;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:white;
+}
